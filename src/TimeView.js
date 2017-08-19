@@ -37,7 +37,7 @@ var DateTimePickerTime = onClickOutside( createClass({
 		}
 
 		return {
-			hours: date.format( 'H' ),
+			hours: date.format( 'HH' ),
 			minutes: date.format( 'mm' ),
 			seconds: date.format( 'ss' ),
 			milliseconds: date.format( 'SSS' ),
